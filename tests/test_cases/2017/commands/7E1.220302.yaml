@@ -1,5 +1,5 @@
 command_id: 7E1.220302
 test_cases:
 - expected_values:
-    AUDI_DRIVE_TIME: 2711.75
+    SQ7_DRIVE_TIME: 2711.75
   response: 7E9056203022A5F

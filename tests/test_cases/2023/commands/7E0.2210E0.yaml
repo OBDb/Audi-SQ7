@@ -1,18 +1,18 @@
 command_id: 7E0.2210E0
 test_cases:
 - expected_values:
-    AUDI_ODO_2: 16741
-    AUDI_ODO_V2: 16741
+    SQ7_ODO_2_V2: 16741.0
+    SQ7_ODO_V3: 16741.0
   response: 7E8076210E000004165
 - expected_values:
-    AUDI_ODO_2: 42751
-    AUDI_ODO_V2: 42751
+    SQ7_ODO_2_V2: 42751.0
+    SQ7_ODO_V3: 42751.0
   response: 7E8076210E00000A6FF
 - expected_values:
-    AUDI_ODO_2: 42752
-    AUDI_ODO_V2: 42752
+    SQ7_ODO_2_V2: 42752.0
+    SQ7_ODO_V3: 42752.0
   response: 7E8076210E00000A700
 - expected_values:
-    AUDI_ODO_2: 44801
-    AUDI_ODO_V2: 44801
+    SQ7_ODO_2_V2: 44801.0
+    SQ7_ODO_V3: 44801.0
   response: 7E8076210E00000AF01
