@@ -1,20 +1,20 @@
 command_id: 7E1.220303
 test_cases:
 - expected_values:
-    AUDI_DRIVE_TIME_ECO: 0
-  response: '7E90462030300'
+    SQ7_DRIVE_TIME_ECO: 0
+  response: 7E90462030300
 - expected_values:
-    AUDI_DRIVE_TIME_ECO: 96
+    SQ7_DRIVE_TIME_ECO: 96.0
   response: 7E904620303F0
 - expected_values:
-    AUDI_DRIVE_TIME_ECO: 96.4
+    SQ7_DRIVE_TIME_ECO: 96.4
   response: 7E904620303F1
 - expected_values:
-    AUDI_DRIVE_TIME_ECO: 96.8
+    SQ7_DRIVE_TIME_ECO: 96.8
   response: 7E904620303F2
 - expected_values:
-    AUDI_DRIVE_TIME_ECO: 97.2
+    SQ7_DRIVE_TIME_ECO: 97.2
   response: 7E904620303F3
 - expected_values:
-    AUDI_DRIVE_TIME_ECO: 97.6
+    SQ7_DRIVE_TIME_ECO: 97.6
   response: 7E904620303F4

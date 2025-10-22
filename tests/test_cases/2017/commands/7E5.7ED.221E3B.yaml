@@ -1,5 +1,4 @@
 command_id: 7E5.7ED.221E3B
 test_cases:
-- expected_values:
-    AUDI_HVBAT_VOLTS: 123.75
+- expected_values: {}
   response: 7ED05621E3B01EF

@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.2211BE
 test_cases:
 - expected_values:
-    AUDI_EOT_V2: 0
+    SQ7_EOT_V2: 0
   response: 7E8056211BE0000
 - expected_values:
-    AUDI_EOT_V2: 65507
+    SQ7_EOT_V2: 65507.0
   response: 7E8056211BEFFE3
 - expected_values:
-    AUDI_EOT_V2: 65535
+    SQ7_EOT_V2: 65535.0
   response: 7E8056211BEFFFF
