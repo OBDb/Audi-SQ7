@@ -1,0 +1,21 @@
+references:
+  - "https://en.wikipedia.org/wiki/Audi_Q7"
+
+generations:
+  - name: "First Generation"
+    start_year: 2016
+    end_year: 2020
+    platform_code: "4M"
+    description: "Audi SQ7 based on second-generation Q7 platform. Powered by 4.0L V8 twin-turbo diesel engine producing 435 PS and 900 Nm of torque."
+
+  - name: "First Generation (2020 Facelift)"
+    start_year: 2020
+    end_year: 2024
+    platform_code: "4M"
+    description: "Facelifted SQ7 with updated styling and new TFSI petrol engine option. Diesel version produces 429-650 BHP. TFSI petrol variant produces 500 bhp and 770 Nm of torque."
+
+  - name: "First Generation (2025 Facelift)"
+    start_year: 2025
+    end_year: null
+    platform_code: "4M"
+    description: "Second facelift for SQ7 with enhanced front and rear headlight design, HD Matrix LED headlights with Laser high-beam, and OLED rear lights."
