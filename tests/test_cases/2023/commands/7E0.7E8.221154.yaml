@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.221154
 test_cases:
 - expected_values:
-    SQ7_EM_TORQ_2: 0.0
-  response: 7E8056211540000
+    SQ7_EM_TORQ_2: 0
+  response: '7E8056211540000'
 - expected_values:
     SQ7_EM_TORQ_2: 63.96875
   response: 7E80562115407FF
 - expected_values:
     SQ7_EM_TORQ_2: 148.65625
-  response: 7E8056211541295
+  response: '7E8056211541295'
