@@ -1,8 +1,8 @@
 command_id: 710.77A.222A0B
 test_cases:
 - expected_values:
-    SQ7_SSB_T: 23.0
+    SQ7_SSB_T: 23
   response: 77A04622A0B3F
 - expected_values:
-    SQ7_SSB_T: 39.0
+    SQ7_SSB_T: 39
   response: 77A04622A0B4F

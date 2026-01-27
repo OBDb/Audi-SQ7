@@ -1,7 +1,7 @@
 command_id: 713.77D.222B29
 test_cases:
 - expected_values:
-    SQ7_STEER_ANGLE: 0.0
+    SQ7_STEER_ANGLE: 0
   response: 77D05622B290000
 - expected_values:
     SQ7_STEER_ANGLE: -4.609

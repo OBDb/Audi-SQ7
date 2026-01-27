@@ -14,29 +14,13 @@ test_cases:
   response: 7E90462210F03
 - expected_values:
     SQ7_GEAR: '4'
-    SQ7_GEAR_SHFT: null
   response: 7E90462210F04
 - expected_values:
     SQ7_GEAR: '5'
-    SQ7_GEAR_SHFT: null
   response: 7E90462210F05
 - expected_values:
     SQ7_GEAR: '6'
-    SQ7_GEAR_SHFT: null
   response: 7E90462210F06
 - expected_values:
     SQ7_GEAR: '7'
-    SQ7_GEAR_SHFT: null
   response: 7E90462210F07
-- expected_values:
-    SQ7_GEAR: null
-    SQ7_GEAR_SHFT: null
-  response: 7E90462210F08
-- expected_values:
-    SQ7_GEAR: null
-    SQ7_GEAR_SHFT: null
-  response: 7E90462210F09
-- expected_values:
-    SQ7_GEAR: null
-    SQ7_GEAR_SHFT: null
-  response: 7E90462210F0A

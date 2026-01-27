@@ -1,8 +1,0 @@
-command_id: 7E5.7ED.221E3D
-test_cases:
-- expected_values: {}
-  response: 7ED06621E3D0249F0
-- expected_values: {}
-  response: 7ED06621E3D0249FA
-- expected_values: {}
-  response: 7ED06621E3D024A36

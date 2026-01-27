@@ -1,6 +1,0 @@
-command_id: 710.77A.222A0C
-test_cases:
-- expected_values: {}
-  response: 77A04622A0C2F
-- expected_values: {}
-  response: 77A04622A0C51

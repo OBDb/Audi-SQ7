@@ -1,8 +1,8 @@
 command_id: 710.222A0A
 test_cases:
 - expected_values:
-    SQ7_SSB_SENSOR_T: 24.0
+    SQ7_SSB_SENSOR_T: 24
   response: 77A04622A0A40
 - expected_values:
-    SQ7_SSB_SENSOR_T: 39.0
+    SQ7_SSB_SENSOR_T: 39
   response: 77A04622A0A4F

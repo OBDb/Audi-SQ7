@@ -4,8 +4,8 @@ test_cases:
     SQ7_CLR_DIST: 0
   response: 7E80562F4310000
 - expected_values:
-    SQ7_CLR_DIST: 255.0
+    SQ7_CLR_DIST: 255
   response: 7E80562F43100FF
 - expected_values:
-    SQ7_CLR_DIST: 1536.0
+    SQ7_CLR_DIST: 1536
   response: 7E80562F4310600

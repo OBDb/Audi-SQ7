@@ -1,5 +1,5 @@
 command_id: 710.77A.222A0B
 test_cases:
 - expected_values:
-    SQ7_SSB_T: 7.0
+    SQ7_SSB_T: 7
   response: 77A04622A0B2F

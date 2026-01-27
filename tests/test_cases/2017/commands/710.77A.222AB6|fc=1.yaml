@@ -1,7 +1,7 @@
 command_id: 710.77A.222AB6|fc=1
 test_cases:
 - expected_values:
-    SQ7_RANGE_V2: 590.0
+    SQ7_RANGE_V2: 590
   response: |-
     77A100A622AB6024E02
     77A214E07FD00AAAAAA

@@ -4,5 +4,5 @@ test_cases:
     SQ7_WARM_UPS: 0
   response: 7E80462F43000
 - expected_values:
-    SQ7_WARM_UPS: 120.0
+    SQ7_WARM_UPS: 120
   response: 7E80462F43078
