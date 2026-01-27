@@ -2,10 +2,10 @@ command_id: 7E1.220302
 test_cases:
 - expected_values:
     SQ7_DRIVE_TIME: 484.25
-  response: 7E9056203020791
+  response: '7E9056203020791'
 - expected_values:
     SQ7_DRIVE_TIME: 575.75
   response: 7E90562030208FF
 - expected_values:
-    SQ7_DRIVE_TIME: 576.0
-  response: 7E9056203020900
+    SQ7_DRIVE_TIME: 576
+  response: '7E9056203020900'

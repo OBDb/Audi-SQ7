@@ -13,7 +13,7 @@
   "signals": [
     {"id": "SQ7_SSB_VT", "path": "Battery", "fmt": { "len": 8, "max": 36.1, "div": 10, "add": 10.6, "unit": "volts" }, "name": "Start/stop battery target voltage"}
   ]},
-{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A07"}, "freq": 1, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A07"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_SSB_V", "path": "Battery", "fmt": { "len": 16, "max": 69.54, "min": 4, "div": 100, "add": 4, "unit": "volts" }, "name": "Start/stop battery voltage"}
   ]},
@@ -21,27 +21,27 @@
   "signals": [
     {"id": "SQ7_SSB_C", "path": "Battery", "fmt": { "len": 32, "max": 100, "div": 1000, "sign": true, "unit": "amps" }, "name": "Start/stop battery current"}
   ]},
-{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0B"}, "freq": 1, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0B"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_SSB_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Start/stop battery sensor temperature"}
   ]},
-{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0E"}, "freq": 5, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0E"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_SSB_R", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 2, "div": 10, "unit": "milliohms" }, "name": "Start/stop battery resistance"}
   ]},
-{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0F"}, "freq": 5, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0F"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_SSB_AH", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "ampereHours" }, "name": "Start/stop battery charge"}
   ]},
-{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A10"}, "freq": 1, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A10"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage (at rest)"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB6"}, "freq": 5, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB6"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_RANGE_V2", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "miles" }, "name": "Range remaining", "suggestedMetric": "electricRange"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB7"}, "freq": 5, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB7"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_AVG_CSMP_CAT0", "path": "Trips", "fmt": {           "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 0)"},
     {"id": "SQ7_AVG_CSMP_CAT1", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 1)"},
@@ -51,7 +51,7 @@
     {"id": "SQ7_AVG_CSMP_CAT5", "path": "Trips", "fmt": {"bix": 80, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 5)"},
     {"id": "SQ7_AVG_CSMP_CAT6", "path": "Trips", "fmt": {"bix": 96, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 6)"}
   ]},
-{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B29"}, "freq": 0.1, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B29"}, "freq": 0.1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "div": 1000, "sign": true, "unit": "radians" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
@@ -63,7 +63,7 @@
   "signals": [
     {"id": "SQ7_RANGE_DSP", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Range remaining (displayed)", "suggestedMetric": "electricRange"}
   ]},
-{ "hdr": "714", "rax": "77E", "cmd": {"22": "1014"}, "freq": 5, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "714", "rax": "77E", "cmd": {"22": "1014"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "add": -50, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
@@ -76,7 +76,7 @@
     {"id": "SQ7_GPS_SATS_VISIBLE", "path": "GPS", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, visible"},
     {"id": "SQ7_GPS_SATS_TRACKED", "path": "GPS", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, tracked"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "10E0"}, "freq": 30, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "cmd": {"22": "10E0"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_ODO_2_V2", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer (alternative)", "suggestedMetric": "odometer"},
     {"id": "SQ7_ODO_V3",   "path": "Trips", "fmt": { "len": 32, "max": 4000000000, "unit": "kilometers" }, "name": "Odometer",               "suggestedMetric": "odometer"}
@@ -153,47 +153,47 @@
   "signals": [
     {"id": "SQ7_OIL_LEVEL_WARN", "path": "Fluids", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level warning threshold"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 1, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_EOT_V2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Engine oil temperature", "description": "Scaling is unknown, needs further validation."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 5, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_MIL_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled while mil was activated"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_WARM_UPS", "path": "DTCs", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of warm-ups since dtcs cleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 5, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_CLR_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled since dtcs cleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 0.25, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_VPWR", "path": "Battery", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Control module voltage"}
   ]},
-{ "hdr": "7E1", "cmd": {"22": "0302"}, "freq": 300, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "cmd": {"22": "0302"}, "freq": 300, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_DRIVE_TIME", "path": "Stats", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "hours" }, "name": "Total drive time"}
   ]},
-{ "hdr": "7E1", "cmd": {"22": "0303"}, "freq": 300, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "cmd": {"22": "0303"}, "freq": 300, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_DRIVE_TIME_ECO", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (eco)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in eco mode"}
   ]},
-{ "hdr": "7E1", "cmd": {"22": "0304"}, "freq": 300, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "cmd": {"22": "0304"}, "freq": 300, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_DRIVE_TIME_SPORT", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (sport)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in sport mode"}
   ]},
-{ "hdr": "7E1", "cmd": {"22": "0305"}, "freq": 300, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "cmd": {"22": "0305"}, "freq": 300, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_DRIVE_TIME_MANUAL", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (manual)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in manual mode"}
   ]},
@@ -213,7 +213,7 @@
   "signals": [
     {"id": "SQ7_TIRE_RL_SPD_V3", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7E1", "cmd": {"22": "210F"}, "freq": 2, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "cmd": {"22": "210F"}, "freq": 2, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
           "1": { "description": "First gear",   "value": "1" },
@@ -232,19 +232,19 @@
         }}
     }
   ]},
-{ "hdr": "7E1", "cmd": {"22": "2B1B"}, "freq": 30, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "cmd": {"22": "2B1B"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_TIRE_FL_SPD_V2", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "7E1", "cmd": {"22": "2B1C"}, "freq": 30, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "cmd": {"22": "2B1C"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_TIRE_FR_SPD_V2", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "7E1", "cmd": {"22": "2B1D"}, "freq": 30, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "cmd": {"22": "2B1D"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_TIRE_RL_SPD_V2", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7E1", "cmd": {"22": "2B1E"}, "freq": 30, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "cmd": {"22": "2B1E"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "SQ7_TIRE_RR_SPD_V2", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},

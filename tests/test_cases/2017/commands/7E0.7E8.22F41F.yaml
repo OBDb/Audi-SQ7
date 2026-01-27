@@ -4,5 +4,5 @@ test_cases:
     SQ7_RUNTM: 0
   response: 7E80562F41F0000
 - expected_values:
-    SQ7_RUNTM: 26.0
+    SQ7_RUNTM: 26
   response: 7E80562F41F001A
