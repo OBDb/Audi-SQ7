@@ -4,5 +4,5 @@ test_cases:
     SQ7_AAT: 18
   response: '77E0462101488'
 - expected_values:
-    SQ7_AAT: 39.5
-  response: 77E04621014B3
+    SQ7_AAT: 77
+  response: 77E04621014FE
