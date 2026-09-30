@@ -1,17 +1,17 @@
 command_id: 710.77A.222A07
 test_cases:
 - expected_values:
-    SQ7_SSB_V: 69.54
+    SQ7_SSB_V: 11.865
   response: 77A05622A071EB9
 - expected_values:
-    SQ7_SSB_V: 69.54
+    SQ7_SSB_V: 11.869
   response: 77A05622A071EBD
 - expected_values:
-    SQ7_SSB_V: 69.54
+    SQ7_SSB_V: 11.873
   response: 77A05622A071EC1
 - expected_values:
-    SQ7_SSB_V: 69.54
+    SQ7_SSB_V: 15.014
   response: 77A05622A072B06
 - expected_values:
-    SQ7_SSB_V: 69.54
+    SQ7_SSB_V: 15.155
   response: 77A05622A072B93

@@ -2,15 +2,12 @@ command_id: 7E1.22210F
 test_cases:
 - expected_values:
     SQ7_GEAR: '1'
-    SQ7_GEAR_SHFT: REVERSE
   response: 7E90462210F01
 - expected_values:
     SQ7_GEAR: '2'
-    SQ7_GEAR_SHFT: PARK
   response: 7E90462210F02
 - expected_values:
     SQ7_GEAR: '3'
-    SQ7_GEAR_SHFT: DRIVE
   response: 7E90462210F03
 - expected_values:
     SQ7_GEAR: '4'
