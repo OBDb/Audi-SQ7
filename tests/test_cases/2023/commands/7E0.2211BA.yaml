@@ -4,8 +4,8 @@ test_cases:
     SQ7_OIL_LEVEL: 0
   response: 7E8056211BA0000
 - expected_values:
-    SQ7_OIL_LEVEL: 51.196
+    SQ7_OIL_LEVEL: 5.1196
   response: 7E8056211BA31FF
 - expected_values:
-    SQ7_OIL_LEVEL: 104.128
+    SQ7_OIL_LEVEL: 10.4128
   response: 7E8056211BA65B0

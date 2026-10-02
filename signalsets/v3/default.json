@@ -34,7 +34,7 @@
   ]},
 { "hdr": "710", "rax": "77A", "cmd": {"22": "2A10"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
-    {"id": "SQ7_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage (at rest)"}
+    {"id": "SQ7_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 34.5, "min": 9, "div": 10, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage (at rest)"}
   ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB6"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
@@ -89,7 +89,7 @@
   ]},
 { "hdr": "7E0", "cmd": {"22": "11BA"}, "freq": 15, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "SQ7_OIL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "unknown" }, "name": "Oil level"}
+    {"id": "SQ7_OIL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "11BB"}, "freq": 3600,
   "signals": [
