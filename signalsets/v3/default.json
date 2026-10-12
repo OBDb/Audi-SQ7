@@ -58,6 +58,10 @@
   "signals": [
     {"id": "SQ7_TRIP_USE_SHORT", "path": "Trips", "fmt": {"bix": 238, "len": 18, "max": 131, "min": -131, "div": 1000, "sign": true, "unit": "kilowattHoursPer100Miles" }, "name": "Trip consumption (short)"}
   ]},
+{ "hdr": "714", "fcm1": true, "dbg": true, "cmd": {"22": "2294"}, "freq": 30,
+  "signals": [
+    {"id": "SQ7_DTE", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance to empty", "suggestedMetric": "fuelRange"}
+  ]},
 { "hdr": "714", "dbg": true, "cmd": {"22": "22E0"}, "freq": 1,
   "signals": [
     {"id": "SQ7_RANGE_DSP", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Range remaining (displayed)", "suggestedMetric": "electricRange"}
